@@ -5975,6 +5975,7 @@ The GPIO Connector (P5):&lt;br&gt;
 </devices>
 </deviceset>
 <deviceset name="RASPI_16">
+<description>RasPi narrow, top 16 pins only</description>
 <gates>
 <gate name="G$1" symbol="RASPI_16" x="2.54" y="-10.16"/>
 </gates>
