@@ -5144,6 +5144,48 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <smd name="COM" x="0" y="0" dx="0.7" dy="1" layer="1" rot="R180"/>
 <wire x1="-0.77" y1="0" x2="0" y2="0" width="0.127" layer="1"/>
 </package>
+<package name="WAGO_243">
+<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
+<wire x1="-4" y1="-2.55" x2="-4" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-4" y1="3.2" x2="-1.9" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="3.2" x2="0.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="0.6" y1="3.2" x2="5.5" y2="3.2" width="0.127" layer="21"/>
+<wire x1="5.5" y1="3.2" x2="6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="6" y1="3.2" x2="6" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="6" y1="-2.55" x2="5.5" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-2.55" x2="0.7" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-2.55" x2="-4" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="5.5" y1="3.2" x2="5.5" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="3.7" x2="0.8" y2="3.7" width="0.127" layer="21"/>
+<wire x1="0.8" y1="3.7" x2="0.6" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="3.7" x2="-1.9" y2="3.2" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="0.9" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-2.1" x2="0.7" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-1.9" y2="-2.55" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="-2.55" x2="0.7" y2="-2.55" width="0.127" layer="21"/>
+<text x="-3" y="1.5" size="1.27" layer="21" font="vector">&gt;NAME</text>
+</package>
+<package name="WAGO_243_45">
+<pad name="P$1" x="0" y="0" drill="0.8" shape="square" rot="R45"/>
+<wire x1="-1.018196875" y1="-4.638653125" x2="-5.084059375" y2="-0.572790625" width="0.127" layer="21"/>
+<wire x1="-5.084059375" y1="-0.572790625" x2="-3.5991375" y2="0.91213125" width="0.127" layer="21"/>
+<wire x1="-3.5991375" y1="0.91213125" x2="-1.83136875" y2="2.679896875" width="0.127" layer="21"/>
+<wire x1="-1.83136875" y1="2.679896875" x2="1.63345" y2="6.144721875" width="0.127" layer="21"/>
+<wire x1="1.63345" y1="6.144721875" x2="1.987003125" y2="6.498275" width="0.127" layer="21"/>
+<wire x1="1.987003125" y1="6.498275" x2="6.05286875" y2="2.432409375" width="0.127" layer="21"/>
+<wire x1="6.05286875" y1="2.432409375" x2="5.699315625" y2="2.07885625" width="0.127" layer="21"/>
+<wire x1="5.699315625" y1="2.07885625" x2="2.305203125" y2="-1.315253125" width="0.127" layer="21"/>
+<wire x1="0.466725" y1="-3.15373125" x2="-1.018196875" y2="-4.638653125" width="0.127" layer="21"/>
+<wire x1="1.63345" y1="6.144721875" x2="5.699315625" y2="2.07885625" width="0.127" layer="21"/>
+<wire x1="-4.164821875" y1="1.053553125" x2="-2.0435" y2="3.174871875" width="0.127" layer="21"/>
+<wire x1="-2.0435" y1="3.174871875" x2="-1.83136875" y2="2.679896875" width="0.127" layer="21"/>
+<wire x1="-4.164821875" y1="1.053553125" x2="-3.5991375" y2="0.91213125" width="0.127" layer="21"/>
+<wire x1="0.00710625" y1="-2.976953125" x2="2.128425" y2="-0.855634375" width="0.127" layer="21"/>
+<wire x1="2.128425" y1="-0.855634375" x2="2.305203125" y2="-1.315253125" width="0.127" layer="21"/>
+<wire x1="0.00710625" y1="-2.976953125" x2="0.466725" y2="-3.15373125" width="0.127" layer="21"/>
+<wire x1="0.466725" y1="-3.15373125" x2="2.305203125" y2="-1.315253125" width="0.127" layer="21"/>
+<text x="-3.174871875" y="-1.067765625" size="1.27" layer="21" font="vector" rot="R45">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AVR_SPI_PROGRAMMER_6">
@@ -7759,6 +7801,29 @@ Source: http://www.mew-europe.com/..  en_ds_61606_0000.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="COM" pad="COM"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WAGO_243">
+<gates>
+<gate name="G$1" symbol="PINHD1" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WAGO_243">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="45DEG" package="WAGO_243_45">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
