@@ -5145,7 +5145,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21796H.pdf</description>
 <wire x1="-0.77" y1="0" x2="0" y2="0" width="0.127" layer="1"/>
 </package>
 <package name="WAGO_243">
-<pad name="P$1" x="0" y="0" drill="1.1" diameter="1.7" shape="offset"/>
+<pad name="P$1" x="0" y="0" drill="1.1" diameter="2.1" shape="offset"/>
 <wire x1="-4" y1="-2.55" x2="-4" y2="3.2" width="0.127" layer="21"/>
 <wire x1="-4" y1="3.2" x2="-1.9" y2="3.2" width="0.127" layer="21"/>
 <wire x1="-1.9" y1="3.2" x2="0.6" y2="3.2" width="0.127" layer="21"/>
